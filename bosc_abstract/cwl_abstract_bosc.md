@@ -71,7 +71,7 @@ of the previous results are useful)? -->
 
 The popular bioinformatics platform Galaxy is going to be accepting CWL tool
 and workflow descriptions with planned support for exporting workflows into the
-CWL format. This will scientists, researchers and other analysts to share their
+CWL format. This will enable scientists, researchers and other analysts to share their
 workflows and pipelines in an interoperable and yet human readable manner. Tool
 authors and other community members will also benefit as they will only have to
 describe their tool’s interface once. Uptake is expected by Curoverse and Seven
