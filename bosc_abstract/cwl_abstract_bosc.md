@@ -69,11 +69,11 @@ change the world (unlikely), be a significant "win", be a nice hack, or
 simply serve as a road sign indicating that this path is a waste of time (all
 of the previous results are useful)? -->
 
-The popular bioinformatics platform Galaxy is going to be accepting CWL tool
-and workflow descriptions with planned support for exporting workflows into the
-CWL format. This will enable scientists, researchers and other analysts to share their
+The popular bioinformatics platform Galaxy has CWL tool description support in
+progress and work is planned to add support for the CWL workflow descriptions
+as well. This will enable scientists, researchers and other analysts to share their
 workflows and pipelines in an interoperable and yet human readable manner. Tool
 authors and other community members will also benefit as they will only have to
 describe their tool’s interface once. Uptake is expected by Curoverse and Seven
 Bridges Genomics as they had dedicated considerable engineering resources to
-the project.
+the project and other platforms have expressed interest.
