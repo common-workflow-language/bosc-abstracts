@@ -31,14 +31,14 @@ http://phdtalk.blogspot.ro/2011/08/how-to-write-abstract-in-30-minutes.html -->
 
 Bioinformatic workflow platforms provide provenance tracking, execution and
 data management, repeatability, and a platform for data exploration and
-visualization. Example F/OSS bioinformatic workflow platforms include Arvados,
-Galaxy, Rabix, Mobyle, iPlant DiscoveryEnvironment, and Yabi. Each one
-presently represents workflows using a different vocabulary and format, and
+visualization. Example F/OSS bioinformatics workflow platforms include Arvados,
+Galaxy, Rabix, Mobyle, iPlant DiscoveryEnvironment, Apache Taverna and Yabi. Each one
+presently represent workflows using different vocabularies and formats, and
 adding new tools requires different procedures for each system.
 
 <!-- Problem statement: What problem are you trying to solve? -->
 
-Neither the description of the workflows nor the descriptions of the tools that
+Neither the description of the *workflows* nor the descriptions of the *tools* that
 power them are usable outside of the workflow platforms they were written for.
 This results in duplicated effort, reduced reusability, and impedes
 collaboration.
@@ -62,7 +62,7 @@ approach.
 On March 31st, 2015 the group released their second draft of the Common
 Workflow Language specification. The serialized form is a YAML document that is
 validated by an Avro schema and can be interpreted as an RDF graph using
-JSON-LD. The documents are also valid Wf4Ever descriptions after a simple
+JSON-LD. The documents are also valid Wf4Ever wfdesc descriptions after a simple
 transformation. Future drafts will include the use of the EDAM ontology to
 describe the tools enabling tool discovery via the ELIXIR tool registry.
 
@@ -71,9 +71,9 @@ change the world (unlikely), be a significant "win", be a nice hack, or
 simply serve as a road sign indicating that this path is a waste of time (all
 of the previous results are useful)? -->
 
-The organizations behind Curoverse Arvados, Seven Bridges Genomics, and Galaxy
+The organizations behind Curoverse Arvados (Seven Bridges Genomics) and Galaxy
 have stated intent to implement support for the Common Workflow Language, with
-interest from other organizations including BioDatomics and the Broad
+interest from other organizations including Apache Taverna, BioDatomics and the Broad
 Institute.  Developers on the Galaxy bioinformatics platform are exploring
 adding CWL tool description support with plans to add support for the CWL
 workflow descriptions. Tool authors and other community members will benefit as
