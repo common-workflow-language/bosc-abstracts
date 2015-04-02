@@ -29,10 +29,17 @@ http://phdtalk.blogspot.ro/2011/08/how-to-write-abstract-in-30-minutes.html -->
 
 <!-- Motivation: Why do we care about the problem and the results? -->
 
-Bioinformatic workflow platforms provide provenance tracking, execution and
+Bioinformatics workflow platforms provide provenance tracking, execution and
 data management, repeatability, and a platform for data exploration and
-visualization. Example F/OSS bioinformatics workflow platforms include Arvados,
-Galaxy, Rabix, Mobyle, iPlant DiscoveryEnvironment, Apache Taverna and Yabi. Each one
+visualization. Example F/OSS bioinformatics workflow platforms include
+[Arvados](https://arvados.org/),
+[Galaxy](http://usegalaxy.org/),
+[Rabix](https://www.rabix.org/),
+[Mobyle](https://projets.pasteur.fr/projects/mobyle/wiki),
+[iPlant DiscoveryEnvironment](http://www.iplantcollaborative.org/ci/discovery-environment),
+[Apache Taverna](http://taverna.incubator.apache.org/)
+and [Yabi](https://ccg.murdoch.edu.au/yabi).
+Each one
 presently represent workflows using different vocabularies and formats, and
 adding new tools requires different procedures for each system.
 
@@ -59,22 +66,30 @@ approach.
 
 <!-- Results: What's the answer? -->
 
-On March 31st, 2015 the group released their second draft of the Common
-Workflow Language specification. The serialized form is a YAML document that is
-validated by an Avro schema and can be interpreted as an RDF graph using
-JSON-LD. The documents are also valid Wf4Ever wfdesc descriptions after a simple
-transformation. Future drafts will include the use of the EDAM ontology to
-describe the tools enabling tool discovery via the ELIXIR tool registry.
+On March 31st, 2015 the group released their second draft of the
+[Common Workflow Language specification](http://common-workflow-language.github.io/).
+The serialized form is a YAML document that is
+validated by an [Apache Avro](https://avro.apache.org/) schema and can be
+interpreted as an RDF graph using
+[JSON-LD](http://json-ld.org/). The documents are also valid
+[Wf4Ever wfdesc](http://wf4ever.github.io/ro/#wfdesc) descriptions after a simple
+transformation. Future drafts will include the use of the
+[EDAM ontology](http://edamontology.org) to
+describe the tools enabling tool discovery via the
+[ELIXIR tool registry](https://elixir-registry.cbs.dtu.dk/).
 
 <!-- Conclusions: What are the implications of your answer? Is it going to
 change the world (unlikely), be a significant "win", be a nice hack, or
 simply serve as a road sign indicating that this path is a waste of time (all
 of the previous results are useful)? -->
 
-The organizations behind Curoverse Arvados (Seven Bridges Genomics) and Galaxy
+The organizations behind [Curoverse](https://curoverse.com/)
+[Arvados](https://arvados.org/) (Seven Bridges Genomics) and Galaxy
 have stated intent to implement support for the Common Workflow Language, with
-interest from other organizations including Apache Taverna, BioDatomics and the Broad
-Institute.  Developers on the Galaxy bioinformatics platform are exploring
+interest from other propjects and organizations like Apache Taverna,
+[BioDatomics](http://www.biodatomics.com/) and the [Broad
+Institute](https://www.broadinstitute.org/).  
+Developers on the Galaxy bioinformatics platform are exploring
 adding CWL tool description support with plans to add support for the CWL
 workflow descriptions. Tool authors and other community members will benefit as
 they will only have to describe their tool and workflow interfaces once. This
