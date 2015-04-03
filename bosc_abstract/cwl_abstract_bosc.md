@@ -1,8 +1,8 @@
 --------------   -------------------------------------------
 **Title**        Portable worflow and tool descriptions with the CWL
 **Authors**      Peter Amstutz^0^, Nebojša Tijanić^1^, Stian Soiland-Reyes^2^, John Kern^3^, Luka Stojanovic^1^,
-                 Ward Vandewegei^0^, Tim Pierce^0^, John Chilton^4^, Maxim Mikheev^5^, Samuel Lampa^6,7^, 
-                 Hervé Ménager^8^, Scott Frazer^9^, Venkat Sai Malladi^10^, _Michael R. Crusoe_^11^
+                 Tim Pierce^0^, John Chilton^4^, Maxim Mikheev^5^, Samuel Lampa^6,7^,
+                 Hervé Ménager^8^, Scott Frazer^9^, Venkat Sai Malladi^10^, \underline{Michael R. Crusoe}^11^
 **Affiliations** 0. Curoverse Inc. 1. Seven Bridges Genomics, Inc.
                  2. University of Manchester, School of Computer Science
                  3. AccuraGen Inc. 4. Penn State University, The Galaxy Project 5. BioDatomics Inc.
@@ -13,7 +13,7 @@
 **Contact**      mcrusoe@msu.edu
 **URLs**         <http://common-workflow-language.github.io/>
                  <https://github.com/common-workflow-language/common-workflow-language/>
-**License**      Apache License, Version 2.0
+**License**      [Apache License, Version 2.0](https://github.com/common-workflow-language/common-workflow-language/blob/master/LICENSE.txt)
 --------------   -------------------------------------------
 
 <!-- Prompts in HTML comments are from
