@@ -31,8 +31,7 @@ visualization. Example F/OSS bioinformatics workflow platforms include
 [iPlant DiscoveryEnvironment](http://www.iplantcollaborative.org/ci/discovery-environment),
 [Apache Taverna](http://taverna.incubator.apache.org/)
 and [Yabi](https://ccg.murdoch.edu.au/yabi).
-Each one
-presently represent workflows using different vocabularies and formats, and
+Each one represents workflows using different vocabularies and formats, and
 adding new tools requires different procedures for each system.
 
 <!-- Problem statement: What problem are you trying to solve? -->
