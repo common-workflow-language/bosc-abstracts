@@ -1,5 +1,5 @@
 --------------   -------------------------------------------
-**Title**        Portable worflow and tool descriptions with the CWL
+**Title**        Portable workflow and tool descriptions with the CWL
 **Authors**      Peter Amstutz^0^, Nebojša Tijanić^1^, Stian Soiland-Reyes^2^, John Kern^3^, Luka Stojanovic^1^,
                  Tim Pierce^0^, John Chilton^4^, Maxim Mikheev^5^, Samuel Lampa^6,7^,
                  Hervé Ménager^8^, Scott Frazer^9^, Venkat Sai Malladi^10^, \underline{Michael R. Crusoe}^11^
@@ -9,8 +9,8 @@
                  6. Uppsala University, Department of Pharmaceutical Biosciences
                  7. BILS (Bioinformatics Infrastructure for Life Sciences) 8. Institut Pasteur
                  9. The Broad Institute 10. Stanford University
-                 11. Michigan State University, Microbiology and Molecular Genetics
-**Contact**      mcrusoe@msu.edu
+                 11. University of California, Davis, School of Veterinary Medicine 
+**Contact**      crusoe@ucdavis.edu
 **URLs**         <http://common-workflow-language.github.io/>
                  <https://github.com/common-workflow-language/common-workflow-language/>
 **License**      [Apache License, Version 2.0](https://github.com/common-workflow-language/common-workflow-language/blob/master/LICENSE.txt)
@@ -48,8 +48,8 @@ field data for an actual product? -->
 
 Three engineers (Peter Amstutz, John Chilton, and Nebojsa Tijanic) from
 leading bioinformatics platform teams (Curoverse, Galaxy Team, and Seven
-Bridges Genomics) and a tool author (Michael R. Crusoe / khmer project /
-Michigan State University) started working together at the BOSC 2014 Codefest
+Bridges Genomics) and a tool author (Michael R. Crusoe / khmer project)
+started working together at the BOSC 2014 Codefest
 with an initial focus on developing a portable means of representing, sharing
 and invoking command line tools which was then the basis for portable workflow
 descriptions. The group placed high value on re-using existing formats and
