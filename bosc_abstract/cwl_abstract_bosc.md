@@ -1,6 +1,5 @@
 --------------   -------------------------------------------
-**Title**        This is Why We Can Have Nice Things: Getting to 1.0 of the
-                 Common Workflow Language
+**Title**        This is Why We Can Have Nice Things: Getting to 1.0 of the Common Workflow Language
 **Authors**      Michael R. Crusoe
 **Contact**      michael.crusoe@gmail.com
 **URLs**         <http://www.commonwl.org/>
