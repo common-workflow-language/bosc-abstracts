@@ -11,7 +11,6 @@
                 
 **Contact**      michael.crusoe@gmail.com
 **URLs**         <http://www.commonwl.org/>
-                 <https://github.com/common-workflow-language/common-workflow-language/>
 **License**      [Apache License, Version 2.0](https://github.com/common-workflow-language/common-workflow-language/blob/master/LICENSE.txt)
 --------------   -------------------------------------------
 
