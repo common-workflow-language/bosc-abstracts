@@ -8,7 +8,6 @@
                  3. AccuraGen Inc. 4. Penn State University, The Galaxy Project 
                  7. BILS (Bioinformatics Infrastructure for Life Sciences) 8. Institut Pasteur
                  9. The Broad Institute 10. Stanford University
-                
 **Contact**      michael.crusoe@gmail.com
 **URLs**         <http://www.commonwl.org/>
 **License**      [Apache License, Version 2.0](https://github.com/common-workflow-language/common-workflow-language/blob/master/LICENSE.txt)
